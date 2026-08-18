@@ -58,8 +58,11 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
-  list-style: none;
+  
 
+}
+#topo>nav>ul>li{
+  list-style: none;
 }
 
 #topo>nav>ul>li>a {

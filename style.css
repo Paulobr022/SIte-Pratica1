@@ -58,10 +58,11 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
-  
+
 
 }
-#topo>nav>ul>li{
+
+#topo>nav>ul>li {
   list-style: none;
 }
 
@@ -355,45 +356,54 @@ body {
   line-height: 1.6;
   font-size: clamp(12px, 9.67px + 0.486vw, 19px);
 }
-.section1 svg{
+
+.section1 svg {
   font-size: clamp(20px, 1.2vw, 22px);
 }
-.section2 h3,.section3 h3{
+
+.section2 h3,
+.section3 h3 {
   margin: 13px 0px;
-  
+
 }
-.section-geral-footer a{
+
+.section-geral-footer a {
   display: inline-block;
   color: white;
   text-decoration: none;
   list-style: none;
 }
-.section-geral-footer li{
+
+.section-geral-footer li {
   list-style: none;
   margin: 10px 0px;
   font-size: clamp(12px, 9.67px + 0.486vw, 19px);
 
 }
 
-.section4 h3{
+.section4 h3 {
   margin: 13px 0px;
 }
-.section4 p{
+
+.section4 p {
   margin: 8px 0px;
 }
-.section4 a{
+
+.section4 a {
   text-align: center;
   text-decoration: none;
   color: white;
   font-size: var(--font-tamanho-padrao);
 }
-.section4 svg{
+
+.section4 svg {
   text-align: center;
   font-size: clamp(12px, 9.67px + 0.486vw, 19px);
   margin: 0px 5px 0px 0px;
-  
+
 }
-.direitos{
+
+.direitos {
   width: 100%;
   padding: 10px;
   display: inline-block;
@@ -403,57 +413,66 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width:1054px){
-  .hero-imagem img{
+@media screen and (max-width:1054px) {
+  .hero-imagem img {
     border-radius: 20px;
   }
 }
 
-@media screen and (max-width:800px){
-.hero-texto{
-  font-size: 0.9em;
-}
+@media screen and (max-width:800px) {
+  .hero-texto {
+    font-size: 0.9em;
+  }
 
-  #portifolio{
+  #portifolio {
     min-height: 150px;
   }
-  .projeto-card{
+
+  .projeto-card {
     margin: 10px;
   }
-  
+
 }
-@media screen and (max-width:720px){
-  #hero{
+
+@media screen and (max-width:720px) {
+  #hero {
     flex-flow: column;
     justify-content: center;
     align-items: center;
   }
-  .hero-imagem{
+
+  .hero-imagem {
     margin: 0px;
   }
-  .hero-imagem img{
+
+  .hero-imagem img {
     margin: 0px 0px 10px 0px;
   }
-  .hero-texto{
+
+  .hero-texto {
     margin: 0px 0px 10px 0px;
     width: 70%;
     text-align: center;
   }
 }
-@media screen and (max-width:636px){
-  #sobre{
+
+@media screen and (max-width:636px) {
+  #sobre {
     flex-flow: column;
   }
-  .sobre-texto{
+
+  .sobre-texto {
     margin-top: 10px;
     font-size: small;
     text-align: center;
     width: 70%;
   }
-  .imagem-sobreNos{
+
+  .imagem-sobreNos {
     margin-bottom: 10px;
   }
-  footer{
+
+  footer {
     font-size: .6em;
   }
 }
